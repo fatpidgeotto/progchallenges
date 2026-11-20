@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int
+main()
+{
+    bool p, q;
+    cin >> p >> q;
+    cout << (p ^ q) << endl;
+    return 0;
+}
